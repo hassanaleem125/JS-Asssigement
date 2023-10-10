@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assigment</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        alert("only write a small letter and available food pizza / biryani / burger")
+        var food = prompt("What take you want to?")
+        if (food == "pizza" || food == "biryani" || food == "burgar") {
+            if (food == "pizza") {
+                alert("only Available Flavoure chicken/BBQ")
+                var flavoure = prompt("enter flavoure of pizza")
+                if (flavoure == "chicken" || flavoure == "BBQ") {
+                    if (flavoure == "chicken") {
+ 
+                        alert("prise = 1200 Small")
+                        alert("Wait 5 mint \n ok! Thanks")  
+                    }
+                    if (flavoure == "BBQ") {
+                        alert("Prise = 1500 small")
+                        alert("Wait 5 mint \n ok! Thanks")
+                    }
+                }
+
+            }
+            if (food == "biryani") {
+                alert("available only  (chicken-plate / beaf-plate)\nwrite a same spalling ok!")
+                var whichone = prompt("which one do you want to buy?")
+                
+                if (whichone == "chicken-plate" || whichone == "beaf-plate") {
+                    if (whichone == "chicken-plate") {
+                        var whichprice = prompt("kitnay wale plate 150/250/500")
+                        alert("Wait 5 mint \n ok! Thanks")
+                    }
+                    if (whichone == "beaf-plate") {
+                        var whichprice = prompt("kitnay wale plate 250/550")
+                        alert("Wait 10 mint \n ok! Thanks")
+
+
+                    }
+                }
+
+            }
+            if (food == "burgar") {
+                alert("available only normal / specail")
+                var konsa = prompt("which one do you want to buy?")
+
+                if (konsa == "normal" || konsa == "specail") {
+                    if (konsa == "normal") {
+                        alert("ok!\nDone")
+                        alert("wait only 10 min!")
+                    }
+                    if (konsa == "specail") {
+                        alert("ok!\nDone")
+                        alert("wait only 15 min!")
+                    }
+                }
+
+            }
+        }else{ alert("Please! Write a correct splling \nAnd read carefuly all alert box ok!")}
+        
+
+    </script>
+</body>
+
+</html>
